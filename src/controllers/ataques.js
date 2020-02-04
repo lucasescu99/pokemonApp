@@ -1,4 +1,4 @@
-const AtaquesModel = require("../dbmodels/Ataques");
+const AtaquesModel = require("../dbmodels/ataques");
 
 const ataquesController = {
   findAll(req, res) {

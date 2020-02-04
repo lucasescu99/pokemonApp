@@ -1,5 +1,4 @@
 const PokemonModel = require("../dbmodels/pokemon");
-const AtaqueModel = require("../dbmodels/Ataques");
 
 const pokemonController = {
   findAll(req, res) {
