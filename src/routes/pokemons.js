@@ -8,4 +8,5 @@ router.get("/:id", PokemonController.findById);
 router.delete("/all", PokemonController.deleteAll);
 router.delete("/:id", PokemonController.deleteById);
 router.put("/:id", PokemonController.updateById);
+
 module.exports = router;

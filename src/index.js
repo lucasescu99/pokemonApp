@@ -1,7 +1,6 @@
 require("./config/index");
 const express = require("express");
 const morgan = require("morgan");
-const path = require("path");
 const bodyParser = require("body-parser");
 const rutas = require("./routes");
 const cors = require("cors");
